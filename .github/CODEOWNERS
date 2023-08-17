@@ -28,7 +28,6 @@ rust_g.dll @efzapa
 librust_g.so @efzapa
 
 
-
 ### Fox-McCloud
 /code/controllers/subsystem/air.dm @efzapa
 /code/controllers/subsystem/garbage.dm @efzapa
