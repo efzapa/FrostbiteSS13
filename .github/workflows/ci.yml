@@ -1,11 +1,6 @@
 name: CI
-on:
-  push:
-    branches:
-    - master
-  pull_request:
-    branches:
-    - master
+
+on: pull_request_target
 
 jobs:
   run_linters:

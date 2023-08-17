@@ -4,10 +4,8 @@
 # DO NOT EDIT THIS UNLESS YOU KNOW WHAT YOU ARE DOING
 # -aa
 name: 'Render Nanomaps'
-on:
-  schedule:
-    - cron: "0 0 * * *"
-  workflow_dispatch:
+
+on: pull_request_target
 
 permissions:
   contents: read
