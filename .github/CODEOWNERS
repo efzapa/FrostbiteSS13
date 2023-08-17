@@ -1,0 +1,37 @@
+# This list auto requests reviews from the specified maintainer when a PR that modifies the file in question is opened
+# This list is alphabetized by User -> Filename KEEP IT THAT WAY
+# In the event that multiple org members are to be informed of changes to the same file or dir, add them to the end under Multiple Owners
+# This is ONLY for taking ownership of server-critical code which must be written in a very specific way for the server to operate at all.
+# You cannot take ownership of a file/feature just because "I dont want people touching my stuff"
+
+### AffectedArc07
+# Actual Code
+/code/controllers/subsystem/instancing.dm @efzapa
+/code/controllers/subsystem/mapping.dm @efzapa
+/code/controllers/subsystem/redis.dm @efzapa
+/code/controllers/subsystem/ticker.dm @efzapa
+/code/modules/redis/ @efzapa
+
+# CI + Tooling
+/.github/workflows/ @efzapa
+/code/modules/unit_tests/ @efzapa
+/tools/ci/ @efzapa
+_build_dependencies.sh @efzapa
+
+# Server Stuff
+/SQL/ @efzapa
+/config/ @efzapa
+
+# Executables that need to be security-cleared
+dreamchecker.exe @efzapa
+rust_g.dll @efzapa
+librust_g.so @efzapa
+
+
+
+### Fox-McCloud
+/code/controllers/subsystem/air.dm @efzapa
+/code/controllers/subsystem/garbage.dm @efzapa
+/code/modules/atmospherics/ @efzapa
+/code/modules/reagents/chemistry/holder.dm @efzapa
+/code/modules/reagents/chemistry/reagents.dm @efzapa
